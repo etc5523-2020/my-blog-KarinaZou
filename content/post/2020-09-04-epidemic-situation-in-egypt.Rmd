@@ -11,8 +11,6 @@ tags: []
 ### The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.
 ### Egypt sees marked decline in daily COVID-19 infections, China and Egypt have been in close contact with each other to fight the epidemic and jointly develop new vaccines.[xinhuanet](http://www.xinhuanet.com/english/2020-07/10/c_139201231.htm)
 
-
-
 ```{r setup, echo=FALSE,message=FALSE}
 library(ggplot2)
 library(tidyverse)
