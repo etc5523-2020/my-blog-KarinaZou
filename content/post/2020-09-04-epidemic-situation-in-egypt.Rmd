@@ -1,0 +1,67 @@
+---
+title: Epidemic situation in Egypt
+author: Ying Zou
+date: '2020-09-04'
+slug: epidemic-situation-in-egypt
+categories: []
+tags: []
+---
+
+
+### The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.the total cases is 99280.	[xinhuanet](http://www.xinhuanet.com/english/2020-07/10/c_139201231.htm)
+
+
+```{r setup, echo=FALSE,message=FALSE}
+library(ggplot2)
+library(tidyverse)
+library(tibble)
+library(dplyr)
+library(pacman)
+p_load(vistime,tidyfst)
+library(broom)
+library(MASS)
+library(kableExtra)
+
+
+```
+### This table Summarized the total confrimed cases by country (top 10).The total number of confirmed cases in Egypt ranks 31st among the total number of confirmed cases in the world.
+```{r number, echo=FALSE,warning=FALSE,message=FALSE}
+coronavirus <- readr::read_csv(here::here("content/post/data/coronavirus.csv"))
+summary_df <- coronavirus %>% 
+  filter(type == "confirmed") %>%
+  group_by(country) %>%
+  summarise(total_cases = sum(cases)) %>%
+  arrange(-total_cases) %>%
+  # summary_df %>% 
+  filter(country%in% c("Egypt","US","Brazil")) %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+ summary_df
+
+
+```
+
+```{r , echo=FALSE,warning=FALSE,message=FALSE}
+Egypt_confirmed <- dplyr::filter(coronavirus,country==	"Egypt",type=="confirmed")
+Egypt_death<- dplyr::filter(coronavirus,country==	"Egypt",type=="death")
+Egypt_recover<- dplyr::filter(coronavirus,country==	"Egypt",type=="recovered")
+
+```
+
+
+```{r, echo=FALSE,warning=FALSE,message=FALSE}
+num_Egypt <- coronavirus %>%
+  filter(country == "Egypt") %>%
+#  select(date) %>%
+  pivot_wider(id_cols = date, names_from = type, values_from = cases) %>%
+  arrange(desc(date))
+num_Egypt
+```
+
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+DT_Egypt <- DT::datatable(num_Egypt, options = list(pageLength = 10))
+widgetframe::frameWidget(DT_Egypt, height = 524.08, width = '95%')
+```
+
+
