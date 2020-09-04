@@ -1,0 +1,29 @@
+---
+title: Covid19
+author: Ying Zou
+date: '2020-09-03'
+slug: covid19
+categories: []
+tags: []
+---
+
+
+```{r setup, include = FALSE}
+# knitr::knit_global$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(ggplot2)
+library(dplyr)
+library(tibble)
+library(tidyverse)
+library(dplyr)
+
+```
+```{r}
+
+coronavirus <- readr::read_csv(here::here("content/post/data/coronavirus.csv"))
+summary_df <- coronavirus %>% 
+  filter(type == "confirmed") %>%
+  group_by(country) %>%
+  summarise(total_cases = sum(cases)) %>%
+  arrange(-total_cases)
+head(summary_df)
+```

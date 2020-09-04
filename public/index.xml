@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Covid 19</title>
+      <link>/2020/09/04/covid-19/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/04/covid-19/</guid>
+      <description>coronavirus &amp;lt;- readr::read_csv(here::here(&amp;quot;content/post/data/coronavirus.csv&amp;quot;))## Parsed with column specification:## cols(## date = col_date(format = &amp;quot;&amp;quot;),## province = col_logical(),## country = col_character(),## lat = col_double(),## long = col_double(),## type = col_character(),## cases = col_double()## )## Warning: 51525 parsing failures.## row col expected actual file## 41626 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.csv&amp;#39;## 41627 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.</description>
+    </item>
+    
+    <item>
+      <title>Covid19</title>
+      <link>/2020/09/03/covid19/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/03/covid19/</guid>
+      <description>coronavirus &amp;lt;- readr::read_csv(here::here(&amp;quot;content/post/data/coronavirus.csv&amp;quot;))## Parsed with column specification:## cols(## date = col_date(format = &amp;quot;&amp;quot;),## province = col_logical(),## country = col_character(),## lat = col_double(),## long = col_double(),## type = col_character(),## cases = col_double()## )## Warning: 51525 parsing failures.## row col expected actual file## 41626 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.csv&amp;#39;## 41627 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.</description>
+    </item>
+    
+    <item>
+      <title>Covid19</title>
+      <link>/2020/09/03/covid19/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/03/covid19/</guid>
+      <description>coronavirus &amp;lt;- readr::read_csv(here::here(&amp;quot;content/post/data/coronavirus.csv&amp;quot;))## Parsed with column specification:## cols(## date = col_date(format = &amp;quot;&amp;quot;),## province = col_logical(),## country = col_character(),## lat = col_double(),## long = col_double(),## type = col_character(),## cases = col_double()## )## Warning: 51525 parsing failures.## row col expected actual file## 41626 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.csv&amp;#39;## 41627 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.csv&amp;#39;## 41628 province 1/0/T/F/TRUE/FALSE Alberta &amp;#39;C:/Users/surfacepro/Documents/code/assignment_Blog Post 1/content/post/data/coronavirus.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a private blog website for the ETC5523 course arrangement. I will upload three blogs in this website. In the first blog, I will briefly introduce the Covid19 virus situation in Egypt. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.
+Data description short data story presentation of tables </description>
+    </item>
+    
+  </channel>
+</rss>
