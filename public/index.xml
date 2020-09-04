@@ -17,7 +17,14 @@
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/09/04/epidemic-situation-in-egypt/</guid>
-      <description>---title: Epidemic situation in Egyptauthor: Ying Zoudate: &#39;2020-09-04&#39;slug: epidemic-situation-in-egyptcategories: []tags: []---The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.the total cases is 99280. xinhuanetThis table Summarized the total confrimed cases by country (top 10).The total number of confirmed cases in Egypt ranks 31st among the total number of confirmed cases in the world.</description>
+      <description>---
+title: Epidemic situation in Egypt
+author: Ying Zou
+date: &#39;2020-09-04&#39;
+slug: epidemic-situation-in-egypt
+categories: []
+tags: []
+---</description>
     </item>
     
     <item>
@@ -30,12 +37,13 @@
     </item>
     
     <item>
-      <title>About me</title>
+      <title>Contact me</title>
       <link>/contact/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/contact/</guid>
-      <description>This is a private blog website for the ETC5523 course arrangement. I will upload three blogs in this website. In the first blog, I will briefly introduce the Covid19 virus situation in Egypt.</description>
+      <description>Hi, welecome! My name is Ying Zou, a student in monash and also a beginer in R. We can sharing the experience of learning R.
+Phone number:+86 17611153885 instagram: karinazz</description>
     </item>
     
   </channel>

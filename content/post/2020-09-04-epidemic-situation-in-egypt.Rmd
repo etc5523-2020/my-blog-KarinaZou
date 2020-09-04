@@ -8,7 +8,9 @@ tags: []
 ---
 
 
-### The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.the total cases is 99280.	[xinhuanet](http://www.xinhuanet.com/english/2020-07/10/c_139201231.htm)
+### The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.
+### Egypt sees marked decline in daily COVID-19 infections, China and Egypt have been in close contact with each other to fight the epidemic and jointly develop new vaccines.[xinhuanet](http://www.xinhuanet.com/english/2020-07/10/c_139201231.htm)
+
 
 
 ```{r setup, echo=FALSE,message=FALSE}
@@ -24,7 +26,7 @@ library(kableExtra)
 
 
 ```
-### This table Summarized the total confrimed cases by country (top 10).The total number of confirmed cases in Egypt ranks 31st among the total number of confirmed cases in the world.
+### This table Summarized the total confrimed cases by country (top 3).The total number of confirmed cases in Egypt ranks 31st among the total number of confirmed cases in the world.
 ```{r number, echo=FALSE,warning=FALSE,message=FALSE}
 coronavirus <- readr::read_csv(here::here("content/post/data/coronavirus.csv"))
 summary_df <- coronavirus %>% 
@@ -33,7 +35,7 @@ summary_df <- coronavirus %>%
   summarise(total_cases = sum(cases)) %>%
   arrange(-total_cases) %>%
   # summary_df %>% 
-  filter(country%in% c("Egypt","US","Brazil")) %>%
+  filter(country%in% c("Egypt","US","Brazil","India")) %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
  summary_df
@@ -48,7 +50,7 @@ Egypt_recover<- dplyr::filter(coronavirus,country==	"Egypt",type=="recovered")
 
 ```
 
-
+### The latest number of confirmed cases, deaths, and recoveries in Egypt.
 ```{r, echo=FALSE,warning=FALSE,message=FALSE}
 num_Egypt <- coronavirus %>%
   filter(country == "Egypt") %>%
@@ -57,6 +59,9 @@ num_Egypt <- coronavirus %>%
   arrange(desc(date))
 num_Egypt
 ```
+
+
+### Interactive table:The latest number of confirmed cases, deaths, and recoveries in Egypt
 
 
 ```{r,echo=FALSE,warning=FALSE,message=FALSE}
