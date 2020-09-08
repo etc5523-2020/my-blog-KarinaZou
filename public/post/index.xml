@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on A Hugo website</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Epidemic situation in Egypt</title>
-      <link>/2020/09/04/epidemic-situation-in-egypt/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/09/04/epidemic-situation-in-egypt/</guid>
-      <description>---title: Epidemic situation in Egyptauthor: Ying Zoudate: &#39;2020-09-04&#39;slug: epidemic-situation-in-egyptcategories: []tags: []---The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.Egypt sees marked decline in daily COVID-19 infections, China and Egypt have been in close contact with each other to fight the epidemic and jointly develop new vaccines.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Posts on Vitae</title>
+		<link>/post/</link>
+		<description>Recent content in Posts on </description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Epidemic situation in Egypt</title>
+			<link>/post/epidemic-situation-in-egypt/</link>
+			<pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/post/epidemic-situation-in-egypt/</guid>
+			<description>
+				
+				---title: Epidemic situation in Egyptauthor: Ying Zoudate: &#39;2020-09-04&#39;slug: epidemic-situation-in-egyptcategories...
+				
+			</description>
+		</item>
+		
+	</channel>
 </rss>

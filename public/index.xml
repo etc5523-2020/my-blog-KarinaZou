@@ -1,43 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>A Hugo website</title>
-    <link>/</link>
-    <description>Recent content on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Epidemic situation in Egypt</title>
-      <link>/2020/09/04/epidemic-situation-in-egypt/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/09/04/epidemic-situation-in-egypt/</guid>
-      <description>---title: Epidemic situation in Egyptauthor: Ying Zoudate: &#39;2020-09-04&#39;slug: epidemic-situation-in-egyptcategories: []tags: []---The overseas epidemic situation is getting worse. In this blog, I will make some simple data analysis on the world epidemic situation and the epidemic situation in Egypt.Egypt sees marked decline in daily COVID-19 infections, China and Egypt have been in close contact with each other to fight the epidemic and jointly develop new vaccines.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is a private blog website for the ETC5523 course arrangement. I will upload three blogs in this website. In the first blog, I will briefly introduce the Covid19 virus situation in Egypt.</description>
-    </item>
-    
-    <item>
-      <title>Contact me</title>
-      <link>/contact/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Hi, welecome! My name is Ying Zou, a student in monash and also a beginer in R. We can sharing the experience of learning R.
-Phone number:+86 17611153885 instagram: karinazz</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Vitae</title>
+		<link>/</link>
+		<description>Recent content on </description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Epidemic situation in Egypt</title>
+			<link>/post/epidemic-situation-in-egypt/</link>
+			<pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/post/epidemic-situation-in-egypt/</guid>
+			<description>
+				
+				---title: Epidemic situation in Egyptauthor: Ying Zoudate: &#39;2020-09-04&#39;slug: epidemic-situation-in-egyptcategories...
+				
+			</description>
+		</item>
+		<item>
+			<title>About me</title>
+			<link>/about/</link>
+			<pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+			
+			<guid>/about/</guid>
+			<description>
+				
+				This is a private blog website for the ETC5523 course arrangement. I will upload three blogs in this website. In the fir...
+				
+			</description>
+		</item>
+		<item>
+			<title>Contact me</title>
+			<link>/contact/</link>
+			<pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+			
+			<guid>/contact/</guid>
+			<description>
+				
+				Hi, welecome! My name is Ying Zou, a student in monash and also a beginer in R. We can sharing the experience of learnin...
+				
+			</description>
+		</item>
+		
+	</channel>
 </rss>
