@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
 		
 		<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Epidemic situation in Pakistan </title>
+			<link>/post/pakistan/</link>
+			<pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/post/pakistan/</guid>
+			<description>
+				
+				People from all over the world have been fighting with Covid-19 for several months. A look at the present global Covid-...
+				
+			</description>
+		</item>
 		<item>
 			<title>Epidemic situation in Egypt</title>
 			<link>/post/epidemic-situation-in-egypt/</link>
