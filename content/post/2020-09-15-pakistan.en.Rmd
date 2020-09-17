@@ -8,7 +8,7 @@ tags: []
 ---
 
 ###  People from all over the world have been fighting with Covid-19 for several months. A look at the present global Covid-19 trajectory shows that a handful of countries that had reported some of the worst outbreaks in June and July have started witnessing a persistent and steady decline in caseload.Pakistan witnessed a sudden spike in infections and deaths in June, but confirmed cases have gradually declined since then.The reason behind arresting the rise in Covid-19 cases lies in the country’s increased testing capacity in a very short period and setting up a sophisticated tracking system, which included over 10,000 contract workers and more than 3,000 contact tracing teams on the ground. Besides, strict lockdowns in hotspots and hefty fines for violations also played a role.
-![Pakistan Average daily rise in cases](here::here("static/img/pakistain post1.png"))
+![Pakistan Average daily rise in cases](static/img/pakistain_post1.png)
 
 [theindianexpress](https://indianexpress.com/article/world/countries-where-coronavirus-covid-19-cases-are-dipping-and-the-reasons-6569484/)
 
