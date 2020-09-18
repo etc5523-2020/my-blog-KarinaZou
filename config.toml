@@ -34,7 +34,7 @@ googleAnalytics = ""
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "learning blokdown with ETC5523"
+	subtitle = "learning blogdown with ETC5523"
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
