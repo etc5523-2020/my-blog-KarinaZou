@@ -7,8 +7,7 @@ categories: []
 tags: []
 ---
 
-
-![](https://images.app.goo.gl/F948UcsBdPNWs8Dz7)
+![](/img/picture.jpg)
 
 
 
