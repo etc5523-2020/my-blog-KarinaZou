@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "Hugo Authors"
-title = "Vitae"
+title = "Karina Zou's Blog"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
@@ -28,13 +28,13 @@ googleAnalytics = ""
 	keywords = ["hugo","vitae","theme","static"]
 
 	# Add meta description in head part
-	description = "Vitae is a blog theme for Hugo that focuses on your content."
+	description = "learning blokdown with ETC5523"
 
 	# Add pagetitle to homepage <title> tag
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	subtitle = "learning blokdown with ETC5523"
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -43,7 +43,7 @@ googleAnalytics = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/me.jpg"
+	avatar = "/img/pic.jpg"
 
 	# Optional favicons for website
 	#favicon = true
