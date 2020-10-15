@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
 		
 		<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Review of shiny assignment</title>
+			<link>/post/review-of-shiny-assignment/</link>
+			<pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+			
+			<guid>/post/review-of-shiny-assignment/</guid>
+			<description>
+				
+				Introduction &amp; FounctionMy shiny application using the shiny R-package that allows users to explore data related ...
+				
+			</description>
+		</item>
 		<item>
 			<title>Epidemic situation in Pakistan </title>
 			<link>/post/pakistan/</link>

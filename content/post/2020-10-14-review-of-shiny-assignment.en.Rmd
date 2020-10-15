@@ -1,0 +1,36 @@
+---
+title: Review of shiny assignment
+author: Ying Zou
+date: '2020-10-14'
+slug: review-of-shiny-assignment
+categories: []
+tags: []
+---
+![](/img/3.jpg)
+
+
+### Introduction & Founction
+
+* My shiny application using the shiny R-package that allows users to explore data related to COVID-19 situation.
+* The first picture depicts the changes in the number of confirmed cases changed over time in the three countries which have the largest number of confirmed cases in the world.
+
+![](/img/2.png)
+
+The second picture show the number of people worldwide confirmed the Covid-19 virus.
+
+![](/img/4.png)
+
+The third table shows the daily epidemic situation in the United States, including the number of new comfirmed, recovery and death per day.
+
+![](/img/5.png)
+
+
+
+### Self review
+
+* What did I do well?
+My homework may seem mediocre and there will be many problems that need to improve. But in my opinion, I think the best thing is that I finished this homework. I just started my graduate course this semester, and I lacked a lot of basic knowledge. Before I did this assignment, I was confused and didn't know how to do it. I even emailed to teachers, hoping that I can get a extention. Now I am grateful that teacher rejected my request for extension. Because after the despair, I calmed down to study each step and start to reflect on your own learning methods.Finally I did my best to complete the homework as required. I was not beaten by the fear at the time. When I finished the homework, I felt a great sense of accomplishment.I believe I will meet more difficulties in my future studies, but I will try my best to overcome it.
+
+* The points I need to inprove.I think my biggest problem is that my table does not play a important role in analyzing data.My table neither to analyze the changing trend of the data, nor to compare with the data of other countries.
+
+
