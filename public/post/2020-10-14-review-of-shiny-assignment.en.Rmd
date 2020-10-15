@@ -33,4 +33,9 @@ My homework may seem mediocre and there will be many problems that need to impro
 
 * The points I need to inprove.I think my biggest problem is that my table does not play a important role in analyzing data.My table neither to analyze the changing trend of the data, nor to compare with the data of other countries.
 
+* Something I want to add.I want to build a more meaningful table, such as allowing users to enter the name of the country they want to query, and the number of confirmed , recovery, and deaths numbwe in this country will be displayed in my table. It will also display the total proportion of these three people, the infection rate and death rate of each country, and perform some statistical calculations.
+
+* Something I want to add that cannot be done yet due to limitation in data or technology.
+1.I want to add a background to my shiny app, such as a picture or a single color.2. My citations may not in a correct format I want to know how to make it right.3.My user input fields are all on the left side of the first sheet, and I want to put them on their own pages.
+
 
