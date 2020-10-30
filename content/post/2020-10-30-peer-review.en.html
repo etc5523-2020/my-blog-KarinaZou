@@ -1,0 +1,36 @@
+---
+title: peer review
+author: Ying Zou
+date: '2020-10-30'
+slug: []
+categories: []
+tags: []
+---
+
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p><img src="/img/pi.jpg" /></p>
+<ul>
+<li><p>My allocate peer is LuLu Pi,her package name is “COVID19CHN”，the goal of this package is to launching the shiny app with datasets and functions, which helps to do basic analysis of COVID-19 daily cases of every province in China, including confirmed cases, death cases and recovered cases as of 30 September 2020.</p></li>
+<li><p>What did I think this package would do? Did it do it?
+Before I open the package I thought it may include the founctions that can launch the shiny app,the data set of covid-19 as well as the website and others which the assignment required.
+After I look through the package I found there are 4 founctions:
+“COVID19CHN::China_covid19”:The dataset of COVID-19 daily cases in each province in China.
+“COVID19CHN::launch_app()”:launch the shiny app, I can see the shiny app in the website.
+“COVID19CHN”::plot_cases_province()"“COVID19CHN::select_provinceInput()” seemed nothing included.</p></li>
+<li><p>The thing need to imporved in shiny is that after I opened the shiny app web there is an error at the second plot, after I click the date the plot can shows normally.The content inside the shiny app is good.
+The document can runs sufficiently, but I can’t use “COVID19CHN”::plot_cases_province()"“COVID19CHN::select_provinceInput()”.</p></li>
+<li><p>The package should have A statement to clearly stating problems the software is designed to solve and its target audience in README.Installation instructions:</p></li>
+<li><p>for the development version of package and any non-standard dependencies in README.Vignette demonstrating major functionality that runs successfully locally. Function Documentationfor all exported functions in R help. Examples for all exported functions in R Help that run successfully locally.
+To its founction it has able to install locally. functional claims and performance claims of the software have been confirmed. Also unit tests should pass on the local machine.</p></li>
+</ul>
+<p>[ ✓] <strong>A statement of need</strong> clearly stating problems the software is designed to solve and its target audience in README
+[ ✓] <strong>Installation instructions:</strong> for the development version of package and any non-standard dependencies in README
+[ ✓] <strong>Vignette(s)</strong> demonstrating major functionality that runs successfully locally
+[ ✓] <strong>Function Documentation:</strong> for all exported functions in R help
+[ ] <strong>Examples</strong> for all exported functions in R Help that run successfully locally.</p>
+<p>[✓ ] <strong>Installation:</strong> Installation succeeds as documented.
+[ ] <strong>Functionality:</strong> Any functional claims of the software been confirmed.
+[ ✓] <strong>Automated tests:</strong> Unit tests cover essential functions of the package</p>
